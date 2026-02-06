@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "A Baller",
+    "slug": "a-baller",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/AppIcons/playstore.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "aballer",
+    "splash": {
+      "image": "./assets/AppIcons/logo-nobg.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121213"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aballer.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/AppIcons/playstore.png",
+        "backgroundColor": "#FAF7F2"
+      },
+      "package": "com.aballer.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3360703241617260~6363154675",
+          "iosAppId": "ca-app-pub-3360703241617260~0000000000"
+        }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8fd3722f-bba2-4259-8565-7a93d7af757a"
+      }
+    }
+  }
+}
